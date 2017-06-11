@@ -13,13 +13,13 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
-		<teavm.version>0.4.0-SNAPSHOT</teavm.version>
+		<teavm.version>0.4.3</teavm.version>
 	</properties>
 
 	<modules>
 		<module>core</module>
 		<module>utils</module>
-		<module>demos</module>
+		<!--<module>demos</module>-->
 	</modules>
 
 	<dependencies>
@@ -39,12 +39,12 @@
 			<version>${teavm.version}</version>
 			<scope>provided</scope>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>de.iterable</groupId>
-			<artifactId>teavm-utils</artifactId>
+			<artifactId>teavm-jquery-utils</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
