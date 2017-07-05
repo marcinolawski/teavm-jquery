@@ -18,7 +18,7 @@ package de.iterable.teavm.jquery.types;
 import org.teavm.jso.JSFunctor;
 import org.teavm.jso.JSObject;
 
-import de.iterable.teavm.jquery.JQueryObject;
+import org.teavm.jqmobile.JQueryObject;
 
 /**
 *
